@@ -2473,6 +2473,7 @@
 			iommus = <&anoc2_smmu 0x1a00>,
 				 <&anoc2_smmu 0x1a01>;
 			qcom,snoc-host-cap-8bit-quirk;
+			qcom,no-msa-ready-indicator;
 
 			status = "disabled";
 		};
